@@ -21,5 +21,8 @@
   "homepage": "https://github.com/xtrent777x/My-Team-Breakdown#readme",
   "devDependencies": {
     "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2"
   }
 }
