@@ -6,6 +6,6 @@ const Manager = require ()
 
 
 
-// test manager
+// test manager role
 // office number
 // name id email from employee
