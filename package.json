@@ -25,6 +25,8 @@
   "dependencies": {
     "email-validator": "^2.0.4",
     "inquirer": "^8.1.2",
-    "inquirer-path": "^1.0.0-beta5"
+    "inquirer-file-path": "^1.0.1",
+    "inquirer-path": "^1.0.0-beta5",
+    "path": "^0.12.7"
   }
 }

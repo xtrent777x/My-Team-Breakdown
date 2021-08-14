@@ -4,12 +4,15 @@ const Engineer = require ('./lib:/Engineer');
 const Intern = require ('./lib:/Intern');
 const emailValidator = require ('email-validator') //https://stackoverflow.com/questions/65189877/how-can-i-validate-that-a-user-input-their-email-when-using-inquirer- https://www.npmjs.com/package/email-validator
 const fs = require('fs');
-  
+const path = require('path');  //https://www.npmjs.com/package/inquirer-file-path
 // Classes to include Employee/Manager/Engineer/Intern
 
 
 
+const DIST_DIR = path.resolve(__dirname, 'dist');
+const distPath = path.join(DIST_DIR, 'create.html');
 
+const render = require('./lib:/render');        //https://www.section.io/engineering-education/rendering-html-pages-as-a-http-server-response-using-node-js/ https://codeforgeek.com/render-html-file-expressjs/
 const Employee = require('./lib:/Employee');
 
 const team = [];
@@ -297,6 +300,9 @@ addNewEmployee();
 
 
 function generate() {
-
+    fs.writeFileSync(distPath, render(team), "utf-8");
+    process.exit(0);
 }
+
+
 
