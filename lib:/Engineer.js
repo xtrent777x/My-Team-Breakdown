@@ -15,6 +15,6 @@ module.exports = class Engineer extends Employee {
     }
 
     getRole() {
-        return "Engineer";
+        return 'Engineer';
     }
 }
