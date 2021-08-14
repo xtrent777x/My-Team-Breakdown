@@ -1,4 +1,4 @@
-//name, id, email, role universal for all.
+//name, id, email, role universal for all. Add the get() for all this items.
 
 module.exports = class Employee {
 

@@ -12,7 +12,7 @@ const fs = require('fs');
 
 
 
-
+// questions set up from frame my https://github.com/xtrent777x/terminal-readme/blob/main/index.js
 // Manager questions
 // Manager Name
 // ID
