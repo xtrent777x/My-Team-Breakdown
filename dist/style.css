@@ -1,0 +1,26 @@
+.jumbotron {
+    background-color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url("https://t3.ftcdn.net/jpg/01/55/43/08/360_F_155430860_Hlx6dRGMXy3d6G29eWXOY3xih3k1HswO.jpg");
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.card-header {
+    background-color: #bafc46;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.card-body {
+    background-color: #888888;
+}
+
+.list-group-item {
+    background-color: #e5f4c4;
+}
